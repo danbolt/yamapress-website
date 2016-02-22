@@ -2,14 +2,34 @@
 body {
   background-color: #1a1a1a;
   color: white;
-}
-
-#hero {
   text-align: center;
 }
 
+#hero {
+  max-height: 80.0rem;
+}
+
+#hero img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 15%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#description {
+  text-align: left;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#games {
+  padding-top: 5rem;
+}
+
+
 /* Larger than mobile screen */
-@media (min-width: 40.0rem){
+@media (min-width: 40.0rem) {
 
 }
 
@@ -20,5 +40,4 @@ body {
 
 /* Larger than desktop screen */
 @media (min-width: 120.0rem) {
-
 }
