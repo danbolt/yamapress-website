@@ -1,8 +1,25 @@
+/* White CSS buttons */
+.button-white {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.button-white.button-outline {
+  color: white;
+}
+.button-white.button-clear {
+  color: white;
+}
+
 /* Base style */
 body {
   background-color: #1a1a1a;
   color: white;
   text-align: center;
+}
+
+a {
+  color: white;
 }
 
 #hero {
@@ -18,13 +35,25 @@ body {
 }
 
 #description {
-  text-align: left;
   margin-right: 5%;
   margin-left: 5%;
 }
 
-#games {
-  padding-top: 5rem;
+#description p {
+  text-align: left;
+}
+
+#game img {
+  max-width: 80%;
+  max-height: 80%;
+
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+}
+
+#contact container {
+  max-width: 30%;
 }
 
 
